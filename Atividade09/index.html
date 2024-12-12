@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let texto = "   Juan Kainã  "
+        console.log(texto.trim());//O trim retira os espaços inúteis//
+        console.log(texto.toUpperCase());//.toUpperCase deixa a fonte maiúscula//
+        console.log(texto.trim().split(" "));//Split separa palavra por palavra//
+
+        let data = "10/12/2024"
+        console.log(data.split("/"))
+        console.log("Dia: ", data.trim().split("/")[0]) //Você pode combinar elementos como "trim" e "split"//
+        console.log("Mês ",  data.trim().split("/")[1])//Você pode separar elementos por coisas além de espaço, como por "/", por exemplo.//
+        console.log("Ano: ", data.trim().split("/")[2])// [] Serve pra numerar os elementos//
+
+    </script>
+</body>
+</html>
